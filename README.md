@@ -26,7 +26,16 @@ This machine learning model predicts patients at risk for cardiovascular disease
 
 ## Results
 - **Best Accuracy:** 88.5% (Logistic Regression & Random Forest)
+- **Best Accuracy:** 88.5% (Logistic Regression & Random Forest)
 - **PCA Accuracy:** 83.6% (dimensionality reduction decreased performance, suggesting all 13 features contain valuable information)
+
+### Model Comparison
+![Model Comparison](model_comparison.png)
+
+### Confusion Matrix  
+![Confusion Matrix](confusion_matrix.png)
+
+
 
 ### Model Performance Analysis
 The confusion matrix revealed:
