@@ -75,7 +75,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn
 python3 model.py
 ```
 
-Author
+Author: 
 Tomi - Biomedical Engineering Master's Student
 Interested in computational biology, precision medicine, and cardiovascular health
 
