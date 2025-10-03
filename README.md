@@ -71,7 +71,7 @@ While 88.5% is strong for a first model, it's not high enough for real-world dep
 git clone [your-repo-url]
 
 # Navigate to project directory
-cd cardiotest1
+cd cardiovascular-disease-prediction
 
 # Create virtual environment
 python3 -m venv venv
