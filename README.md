@@ -30,10 +30,10 @@ This machine learning model predicts patients at risk for cardiovascular disease
 - **PCA Accuracy:** 83.6% (dimensionality reduction decreased performance, suggesting all 13 features contain valuable information)
 
 ### Model Comparison
-![Model Comparison](model_comparison.png)
+![Model Comparison](results/model_comparison.png)
 
 ### Confusion Matrix  
-![Confusion Matrix](confusion_matrix.png)
+![Confusion Matrix](results/confusion_matrix.png)
 
 
 
@@ -69,6 +69,9 @@ While 88.5% is strong for a first model, it's not high enough for real-world dep
 
 ### Threshold Adjustment
 The default prediction threshold (0.5) resulted in 3 missed disease cases. For a cardiovascular screening tool, false negatives (missed diagnoses) are more dangerous than false positives (unnecessary follow-up tests).
+
+ ### Optimized Confusion Matrix  
+![Optimized Confusion Matrix](results/confusion_matrix_optimized.png)
 
 **Threshold Analysis:**
 - At 0.5: 88.5% accuracy, 3 missed cases
