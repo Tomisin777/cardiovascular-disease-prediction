@@ -65,6 +65,20 @@ While 88.5% is strong for a first model, it's not high enough for real-world dep
 4. **Explore advanced models** - XGBoost, Neural Networks
 5. **Apply to cardiotoxicity prediction** - Extend this work to predict heart damage from cancer treatments
 
+## Model Optimization 
+
+### Threshold Adjustment
+The default prediction threshold (0.5) resulted in 3 missed disease cases. For a cardiovascular screening tool, false negatives (missed diagnoses) are more dangerous than false positives (unnecessary follow-up tests).
+
+**Threshold Analysis:**
+- At 0.5: 88.5% accuracy, 3 missed cases
+- At 0.15: 77.1% accuracy, 0 missed cases, 14 false alarms
+
+**Decision:** 
+Threshold set to 0.15 to achieve 100% sensitivity (catch all disease cases). This results in 14 false positives who would undergo confirmatory testing (ECG, stress test, angiogram) to rule out disease.
+
+This model serves as a **screening tool**, not a diagnostic tool. All positive predictions require clinical confirmation.
+
 ## How to Run
 ```bash
 # Clone the repository
