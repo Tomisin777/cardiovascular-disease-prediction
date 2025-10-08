@@ -1,6 +1,6 @@
 # Cardiovascular Disease Prediction
 
-A machine learning project that predicts cardiovascular disease risk using clinical patient data. This project compares multiple classification algorithms and demonstrates proper ML evaluation techniques including comprehensive metrics, ROC analysis, and threshold optimization.
+This project explores how machine learning can be applied to predict cardiovascular disease using patient health data. Built as a personal learning exercise, it combines data preprocessing, feature engineering, and model comparison to translate classroom concepts into a real-world biomedical challenge. Beyond the code, it reflects my curiosity about how data-driven approaches can support early diagnosis and personalized care in cardiovascular health.
 
 ## Project Overview
 
@@ -216,6 +216,29 @@ OPTIMAL_THRESHOLD = 0.15       # Classification threshold
 - GitHub: [@Tomisin777](https://github.com/Tomisin777)
 - Field: Biomedical Engineering (Master's)
 - Interests: Cardiovascular Health, Cardio-Oncology, AI in Healthcare
+Perfect 👍🏾 Here’s a clean, natural section you can copy directly into your README — it fits your tone (passion project + student learning), makes the repo feel complete, and subtly shows technical and reflective depth.
 
 
-**Note:** This project demonstrates machine learning techniques for educational purposes. Always consult healthcare professionals for medical advice and diagnosis.
+## What I Learned
+
+This project was a way for me to apply what I’ve learned about machine learning in a biomedical context. Through it, I learned how to:
+
+* Preprocess and clean real-world clinical data, handling missing and categorical values properly.
+* Compare different supervised learning models — Logistic Regression, Random Forest, KNN, and SVM — to understand their strengths and trade-offs.
+* Evaluate model performance using metrics like accuracy, precision, recall, F1-score, and ROC-AUC.
+* Visualize results with ROC curves and confusion matrices to interpret model behavior more intuitively.
+* Reflect on the importance of interpretability in healthcare ML — understanding *why* a prediction is made can be just as important as the prediction itself.
+
+
+
+## Limitations
+
+This project was created as a personal learning exercise and is **not intended for clinical use**. Some key limitations include:
+
+* The dataset (UCI Cleveland Heart Disease) is small and may not generalize well to real-world populations.
+* The models were trained and evaluated on a single dataset without external validation.
+* Hyperparameter tuning and cross-validation were limited, so reported metrics should be viewed as exploratory.
+* Feature importances and decision boundaries were interpreted in a simplified way for educational purposes.
+
+Despite these limitations, the project gave me hands-on experience in building and evaluating ML models in the context of cardiovascular health — an area I’m passionate about exploring further.
+
