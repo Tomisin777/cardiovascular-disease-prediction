@@ -2,7 +2,7 @@
 
 A machine learning project that predicts cardiovascular disease risk using clinical patient data. This project compares multiple classification algorithms and demonstrates proper ML evaluation techniques including comprehensive metrics, ROC analysis, and threshold optimization.
 
-## 🎯 Project Overview
+## Project Overview
 
 Cardiovascular disease is one of the leading causes of death globally. Early detection and risk assessment are crucial for prevention and treatment. This project builds predictive models using the UCI Heart Disease dataset to classify patients as having or not having heart disease based on clinical features.
 
@@ -13,7 +13,7 @@ Cardiovascular disease is one of the leading causes of death globally. Early det
 - Threshold optimization for clinical scenarios
 - Modular, production-ready code structure
 
-## 📊 Dataset
+## Dataset
 
 **Source:** [UCI Heart Disease Dataset](https://archive.ics.uci.edu/ml/datasets/heart+disease) (Cleveland database)
 
@@ -36,7 +36,7 @@ Cardiovascular disease is one of the leading causes of death globally. Early det
 
 **Target:** Binary classification (0 = no disease, 1 = disease present)
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 cardiovascular-disease-prediction/
@@ -70,7 +70,7 @@ cardiovascular-disease-prediction/
     └── roc_curve_optimized.png
 ```
 
-## 🚀 Installation & Usage
+##  Installation & Usage
 
 ### Prerequisites
 - Python 3.7+
@@ -140,7 +140,7 @@ Default classification threshold (0.5) prioritizes balanced accuracy. For clinic
 - **Specificity:** ~50% (higher false positive rate)
 - **Use case:** Screening tool where follow-up testing confirms diagnosis
 
-## 📊 Visualizations
+## Visualizations
 
 The project generates multiple visualizations:
 
@@ -164,7 +164,7 @@ PCA_COMPONENTS = 5             # Number of PCA components
 OPTIMAL_THRESHOLD = 0.15       # Classification threshold
 ```
 
-## 📚 Methodology
+## Methodology
 
 ### Data Preprocessing
 1. Handle missing values (marked as '?') in 'ca' and 'thal' columns
@@ -186,7 +186,7 @@ OPTIMAL_THRESHOLD = 0.15       # Classification threshold
 - **F1-Score:** Harmonic mean of precision and recall
 - **ROC-AUC:** Area under ROC curve (0.5 = random, 1.0 = perfect)
 
-## ⚠️ Limitations
+## Limitations
 
 1. **Small Dataset:** Only 303 samples - results may not generalize well
 2. **Single Source:** Data from one location (Cleveland Clinic)
@@ -195,7 +195,7 @@ OPTIMAL_THRESHOLD = 0.15       # Classification threshold
 5. **Feature Engineering:** Limited exploration of derived features
 6. **No External Validation:** Not tested on independent dataset
 
-**⚠️ IMPORTANT:** This is an **educational project** and should **NOT** be used for actual medical diagnosis or clinical decision-making.
+** IMPORTANT:** This is an **educational project** and should **NOT** be used for actual medical diagnosis or clinical decision-making.
 
 
 ### Technical Improvements for the future 
@@ -210,7 +210,7 @@ OPTIMAL_THRESHOLD = 0.15       # Classification threshold
 - Scikit-learn Documentation
 
 
-## 👤 Author
+##  Author
 
 **Tomi**
 - GitHub: [@Tomisin777](https://github.com/Tomisin777)
