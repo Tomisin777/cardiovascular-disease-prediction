@@ -115,7 +115,7 @@ This will:
 5. Perform threshold optimization
 6. Save all results to the `outputs/` directory
 
-## 📈 Results
+## Results
 
 ### Model Performance
 
@@ -152,7 +152,7 @@ The project generates multiple visualizations:
 
 All plots are saved to the `outputs/` directory.
 
-## 🔧 Configuration
+##  Configuration
 
 Model hyperparameters and settings can be adjusted in `config.py`:
 
@@ -204,7 +204,7 @@ OPTIMAL_THRESHOLD = 0.15       # Classification threshold
 - [ ] Explore feature engineering
 - [ ] Test on external validation datasets
 
-## 📖 References
+##  References
 
 - UCI Machine Learning Repository: Heart Disease Dataset
 - Scikit-learn Documentation
