@@ -216,8 +216,6 @@ OPTIMAL_THRESHOLD = 0.15       # Classification threshold
 - GitHub: [@Tomisin777](https://github.com/Tomisin777)
 - Field: Biomedical Engineering (Master's)
 - Interests: Cardiovascular Health, Cardio-Oncology, AI in Healthcare
-Perfect 👍🏾 Here’s a clean, natural section you can copy directly into your README — it fits your tone (passion project + student learning), makes the repo feel complete, and subtly shows technical and reflective depth.
-
 
 ## What I Learned
 
